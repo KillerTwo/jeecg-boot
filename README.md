@@ -7,12 +7,12 @@
 JEECG BOOT 低代码开发平台（前后端分离版本）
 ===============
 
-当前最新版本： 2.2.1（发布日期：2020-07-13）
+当前最新版本： 2.3（发布日期：2020-09-14）
 
 
 [![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/zhangdaiscott/jeecg-boot/blob/master/LICENSE)
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://www.jeecg.com)
-[![](https://img.shields.io/badge/version-2.2.1-brightgreen.svg)](https://github.com/zhangdaiscott/jeecg-boot)
+[![](https://img.shields.io/badge/version-2.3-brightgreen.svg)](https://github.com/zhangdaiscott/jeecg-boot)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/jeecg-boot.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/jeecg-boot)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/jeecg-boot.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/jeecg-boot)
 
@@ -39,11 +39,11 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 技术文档
 -----------------------------------
 
-- 在线演示 ： [http://boot.jeecg.com](http://boot.jeecg.com)
-
 - 技术官网：  [http://www.jeecg.com](http://www.jeecg.com)
 
 - 开发文档：  [http://doc.jeecg.com](http://doc.jeecg.com/1273753)
+
+- 在线演示 ： [http://boot.jeecg.com](http://boot.jeecg.com)
 
 - 视频教程  ：[JeecgBoot入门视频教程](http://www.jeecg.com/doc/video)
 
@@ -56,7 +56,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 交流互动
 -----------------------------------
 
-- QQ交流群 ：  ②769925425、①284271917（满）
+- QQ交流群 ：  ②769925425、③816531124、①284271917（满）
 
 - 反馈问题：  [反馈问题，请按格式发Issues](https://github.com/zhangdaiscott/jeecg-boot/issues/new)
 
@@ -158,6 +158,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 
 
 
+
 ### 功能模块
 ```
 ├─系统管理
@@ -167,12 +168,13 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 │  ├─权限设置（支持按钮权限、数据权限）
 │  ├─表单权限（控制字段禁用、隐藏）
 │  ├─部门管理
+│  ├─我的部门（二级管理员）
 │  └─字典管理
-│  └─树分类字典
+│  └─分类字典
 │  └─系统公告
-│  └─我的组织机构
 │  └─职务管理
 │  └─通讯录
+│  └─多租户管理
 ├─消息中心
 │  ├─消息管理
 │  ├─模板管理
@@ -185,6 +187,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 │  ├─Excel导入导出工具集成（支持单表，一对多 导入导出）
 │  ├─平台移动自适应支持
 ├─系统监控
+│  ├─Gateway路由网关
 │  ├─性能扫描监控
 │  │  ├─监控 Redis
 │  │  ├─Tomcat
@@ -216,6 +219,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 │─常用示例
 │  ├─自定义组件
 │  ├─对象存储(对接阿里云)
+│  ├─JVXETable示例（各种复杂ERP布局示例）
 │  ├─单表模型例子
 │  └─一对多模型例子
 │  └─打印例子
@@ -267,6 +271,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 │  ├─Online在线表单 - 功能已开放
 │  ├─在线代码生成器 - 功能已开放
 │  ├─Online在线报表 - 功能已开放
+│  ├─多数据源管理
 │  ├─Online在线图表
 │  ├─Online图表模板配置
 │  ├─高级表单设计器
@@ -288,6 +293,8 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
    
 ```
    
+#### 微服务架构图
+![微服务架构图](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/jeecgboot-weifuwu-cloud.png "在这里输入图片标题")
 
 ### Jeecg Boot 产品功能蓝图
 ![功能蓝图](https://static.jeecg.com/upload/test/Jeecg-Boot-lantu202005_1590912449914.jpg "在这里输入图片标题")
